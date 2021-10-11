@@ -1,0 +1,4 @@
+/* DISPLAY */
+.d-flex { display: flex;}
+/* FLEX för dem färgade linjerna ska breda ut sig över hela linjen */
+.flex-grow { flex-grow: 1; }
