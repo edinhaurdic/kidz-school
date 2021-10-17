@@ -7,6 +7,12 @@
 /* position */
 .position-relative{position: relative !important;}
 .position-absolute{position: absolute !important;}
+.overflow-hidden{overflow: hidden;}
+.centerXY{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 /*Margin*/
 .mr-auto, .mx-auto{margin-right: auto;}
@@ -35,6 +41,22 @@
 /* images */
 .logo-width{max-width: 13rem;}
 
+/* slidshow */
+ .slider-width{width: 400%;}/* 100% per image */
+ .slider-container{width: 25%;} /*Display first of 4 images*/
+ .slider-image{width: 100%; object-fit: cover;}
+ .slider-animation{animation: 10s slider-keyframes infinite;}
+
+@keyframes slider-identifier {
+    0%{left: 0%;}
+    15%{left: -100%;}
+    30%{left: -200%;}
+    45%{left: -300%;}
+    60%{left: -200%;}
+    75%{left: -100%;}
+    100%{left: 0%;}
+}
+
 /* padding */
 .p-4{padding: var(--distance-4);}
 .p-5{padding: var(--distance-5);}
@@ -45,6 +67,7 @@
 
 /* Typography */
 .text-decoration-none{text-decoration: none;}
+.text-center{text-align: center;}
 
 .lh-sm{line-height: var(--line-height-sm);}
 .lh-md{line-height: var(--line-height-md);}
