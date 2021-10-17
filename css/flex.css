@@ -1,11 +1,14 @@
 /* DISPLAY */
 .d-flex { display: flex;}
+.d-none{ display: none;}
 
 /* FLEX för dem färgade linjerna ska breda ut sig över hela linjen */
 .flex-grow { flex-grow: 1; }
 .flex-column{flex-direction: column;}
 .flex-row{flex-direction: column;}
+.flex-row-reverse{flex-direction: row-reverse;}
 
 /*alignt and justify(utrymme mellan delarna*/
 .justify-content-between{justify-content:space-between ;}
 .align-items-center{align-items: center  ;}
+ 
