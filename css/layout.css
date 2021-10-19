@@ -73,6 +73,7 @@
 /* Typography */
 .text-decoration-none{text-decoration: none;}
 .text-center{text-align: center;}
+.text-uppercase {text-transform: uppercase;}
 
 .lh-sm{line-height: var(--line-height-sm);}
 .lh-md{line-height: var(--line-height-md);}
@@ -107,6 +108,7 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 .border-small-white{border: var(--border-xs-white);}
 .border-radius{border-radius: var(--border-radius-sm);}
 .border-bottom-xs{border-bottom: var(--border-xs);}
+.border-transparent {border: var(--border-transparent);}
 
 /* features */
 .f-width{max-width: 33%;}
