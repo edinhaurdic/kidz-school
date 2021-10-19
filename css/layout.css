@@ -18,6 +18,9 @@
 .mr-auto, .mx-auto{margin-right: auto;}
 .ml-auto, .mx-auto{margin-left: auto;}
 
+.m-6 {margin: var(--distance-6);}
+
+
 .mr-4, .mx-4{margin-right: var(--distance-4);}
 .mt-0, .my-0{margin-top: var(--distance-0);}
 .mb-0, .my-0{margin-bottom: var(--distance-0);}
@@ -37,6 +40,13 @@
 .mb-12, .my-12{margin-bottom: var(--distance-12);}
 .mt-15, .my-15{margin-top: var(--distance-15);}
 .mb-15, .my-15{margin-bottom: var(--distance-15);}
+
+.mr-4, .mx-4 {margin-right: var(--distance-4);}
+.ml-4, .mx-4 {margin-left: var(--distance-4);}
+.mr-6, .mx-6 {margin-right: var(--distance-6);}
+.ml-6, .mx-6 {margin-left: var(--distance-6);}
+
+
 
 /* images */
 .logo-width{max-width: 13rem;}
