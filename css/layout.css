@@ -65,6 +65,8 @@
 .p-12{padding: var(--distance-12);}
 .p-15{padding: var(--distance-15);}
 
+.pr-4, .px-4{padding-right: var(--distance-4);}
+.pl-4, .px-4{padding-left: var(--distance-4);}
 .pr-12, .px-12{padding-right: var(--distance-12);}
 .pl-12, .px-12{padding-left: var(--distance-12);}
 
@@ -85,9 +87,9 @@
 .text-size-xxl{font-size: var(--display-xxl);}
 
 /* Circle */
-.circle{border-radius: 100%;}
+.circle {border-radius: 100%;}
 .circle-lg{size: 3rem;}
-.icon-circle{width: 6.2rem; height: 6.2rem; line-height: 6rem;}
+
 
 /* shadows */
 .shadow-sm{box-shadow: var(--shadow-small-light);}
@@ -111,4 +113,5 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 
 
 /* icons */
-.icon-features{width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
+.icon-feature{width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
+.icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;} 
