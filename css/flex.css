@@ -4,14 +4,15 @@
 
 /* FLEX för dem färgade linjerna ska breda ut sig över hela linjen */
 .flex-grow { flex-grow: 1; }
-.flex-column{flex-direction: column;}
-.flex-row{flex-direction: column;}
-.flex-row-reverse{flex-direction: row-reverse;}
-.flex-wrap{flex-wrap: wrap;}
+.flex-column {flex-direction: column;}
+.flex-row {flex-direction: column;}
+.flex-row-reverse {flex-direction: row-reverse;}
+.flex-wrap {flex-wrap: wrap;}
 
 /*alignt and justify(utrymme mellan delarna*/
-.justify-content-between{justify-content:space-between ;}
-.justify-content-center{justify-content: center;}
-.align-items-center{align-items: center  ;}
+.justify-content-between {justify-content:space-between ;}
+.justify-content-center {justify-content: center;}
+.justify-content-around {justify-content: space-around ;}
+.align-items-center {align-items: center;}
 
  

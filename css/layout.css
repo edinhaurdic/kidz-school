@@ -5,9 +5,9 @@
 .max-width{max-width: 192rem;}
 
 /* position */
-.position-relative{position: relative !important;}
-.position-absolute{position: absolute !important;}
-.overflow-hidden{overflow: hidden;}
+.position-relative {position: relative !important;}
+.position-absolute {position: absolute !important;}
+.overflow-hidden {overflow: hidden;}
 .centerXY{
     top: 50%;
     left: 50%;
@@ -99,7 +99,8 @@
 
 /* Circle */
 .circle {border-radius: 100%;}
-.circle-lg{size: 3rem;}
+.circle-lg {width: 15rem; height: 15rem;}
+
 
 
 /* shadows */
@@ -127,3 +128,5 @@ nav div a:not(:first-child){margin-left: var(--distance-12);}
 /* icons */
 .icon-feature{width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
 .icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;} 
+
+
